@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+  font-size: 30px;
+}
+
+body{
+  background: url(imagenes.css/WhatsApp\ Image\ 2022-01-31\ at\ 7.38.11\ PM\ \(1\).jpeg);
+  background-size: 100%;
+  
+}
+h1{
+  color:#ffffff;
+  text-align: center;
+  padding-top: 0px;
+  font-size: 100px;
+}
+header{
+  height: 150px;
+  background-color: #000000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+p{
+    color:#000000;
+    text-align: center;
+    font-size: 26px;
+}
+div{
+    text-align: center;
+} main{
+  width: 1100px;
+  margin: 20px auto;
+  border: 2px solid;
+  box-shadow: 3px 3px 3px;
+  border-radius: 10px; 
+}
+
+.container{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.534);
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #aa7719;
+}
+ form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #ffffff;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background: #b48911;
+   border-color: #b48911;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 60px;
+   border: none;
+   color: #fff;
+   font-size: 20px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #cf9801, #b1a678);
+ }
+ form .button input:hover{
+  /* transform: scale(0.99); */
+  background: linear-gradient(135deg, #b1a678, #cf9801);
+  }
+
+
+/* estilooos*/
+
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgb(24, 196, 187);
+    font-weight: 700;
+}
+
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #078394;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+
+html{
+    font-size: 30px;
+}
+
+
+footer{
+    background: #1524294f;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
